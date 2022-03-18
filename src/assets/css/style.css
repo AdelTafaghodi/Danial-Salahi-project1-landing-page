@@ -34,7 +34,7 @@ span {
 /* END default classes */
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 nav {
@@ -56,11 +56,11 @@ nav {
 .nav-list {
   list-style-type: none;
   display: flex;
-  padding: 8px 0px 0px 0px;
+  padding: 8px 0 0 0;
 }
 
 .nav-item {
-  margin: 0px 15px;
+  margin: 0 15px;
 }
 
 .nav-item > a {
@@ -101,7 +101,7 @@ nav {
 
 .header-contentــdetails-title {
   font-size: 50px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .header-contentــdetails-link {
@@ -251,7 +251,7 @@ nav {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 0px 30px;
+  padding: 0 30px;
   width: 35%;
 }
 
@@ -260,12 +260,12 @@ nav {
 }
 
 .mobile-app__content > h1 {
-  margin-top: 0px;
+  margin-top: 0;
   max-width: max-content;
 }
 
 .mobile-app__content__text > p {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .mobile-app__content__options {
@@ -278,7 +278,7 @@ nav {
 }
 
 .mobile-app__content__option {
-  padding: 10px 0px;
+  padding: 10px 0;
   width: 30%;
 }
 
@@ -362,7 +362,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0px;
+  margin: 50px 0;
   background-color: #fff4ef;
 }
 
@@ -384,7 +384,7 @@ nav {
 }
 .web-app__content__text > h1 {
   font-size: 50px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
@@ -488,7 +488,7 @@ footer {
 .socila-media > span {
   font-size: 12px;
 }
-.social-media__menu{
+.social-media__menu {
   margin-top: 20px;
 }
 
@@ -500,13 +500,13 @@ footer {
 .resources-list,
 .links-list {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 .resource,
 .link {
   color: #4d4d4e;
-  margin: 15px 0px;
+  margin: 15px 0;
 }
 
 .newsletter > h3 + span {
@@ -521,7 +521,7 @@ footer {
   margin-top: 10px;
 }
 
-.newsletter__form > input {
+.newsletter__input {
   padding: 12px 15px;
   border: 1px solid #89898b;
   border-radius: 5px;
@@ -567,9 +567,7 @@ footer {
   height: 40px;
   background-color: rgba(242, 249, 248, 0.22);
   padding: 10px;
-  border-radius: 50%;
   border: 2px solid #8150f1;
-
 }
 
 .social-media__item:hover {
